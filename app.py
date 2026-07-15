@@ -2,7 +2,7 @@ from transformers import BartForConditionalGeneration, BartTokenizer
 from transformers import pipeline
 import gradio as gr
 
-# Load summarizer properly
+# Load summarizer 
 tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 model = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
 

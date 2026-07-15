@@ -31,3 +31,6 @@ python app.py
 - BART (facebook/bart-large-mnli) — Zero-shot Classification
 - Gradio — UI
 - PyMuPDF — PDF text extraction
+
+## Demo
+![Demo](demo.png)
